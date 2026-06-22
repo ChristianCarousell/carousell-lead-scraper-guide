@@ -565,7 +565,7 @@ Please let me know once my access is set up. Thanks!</div>
       <span class="step-chevron">&rsaquo;</span>
     </div>
     <div class="step-body">
-      <p class="step-desc">The form has two fields: the type of business you want to target, and the country. Hit submit and the scraper starts automatically. Below is a simulation showing exactly what this looks like and what happens next.</p>
+      <p class="step-desc">The form has three fields: the type of business you want to target, the country, and the city. Hit submit and the scraper starts automatically. Below is a simulation showing exactly what this looks like and what happens next.</p>
 
       <div class="sim-container">
         <div class="sim-toolbar">
@@ -576,7 +576,7 @@ Please let me know once my access is set up. Thanks!</div>
         </div>
         <div class="sim-body">
           <p class="sim-form-title">&#128506;&#65039; Lead Scraper</p>
-          <p class="sim-form-sub">Enter the type of businesses you want to find and the country to search in.</p>
+          <p class="sim-form-sub">Enter the type of businesses you want to find, the country, and the city to search in.</p>
           <div class="sim-field">
             <label class="sim-label">Industry / Business Type</label>
             <input class="sim-input" id="sim-industry" type="text" value="Furniture stores" placeholder="e.g. Furniture stores, F&amp;B, Car dealerships" />
@@ -584,6 +584,10 @@ Please let me know once my access is set up. Thanks!</div>
           <div class="sim-field">
             <label class="sim-label">Country</label>
             <input class="sim-input" id="sim-country" type="text" value="Singapore" placeholder="e.g. Singapore, Hong Kong, Philippines" />
+          </div>
+          <div class="sim-field">
+            <label class="sim-label">City</label>
+            <input class="sim-input" id="sim-city" type="text" value="Singapore" placeholder="e.g. Singapore, Makati, Wan Chai" />
           </div>
           <button class="sim-run-btn" id="sim-run-btn" onclick="runSimulation()">
             <span id="sim-btn-text">&#9654; Run Lead Scraper</span>
